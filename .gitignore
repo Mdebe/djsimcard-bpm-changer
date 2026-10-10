@@ -1,0 +1,49 @@
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+dist-electron/
+release/
+out/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# IDE settings
+.vscode/*
+!.vscode/extensions.json
+.idea/
+
+# TypeScript caches
+*.tsbuildinfo
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+
+# Local audio and generated previews
+previews/
+temp-audio/
+*.wav
+*.mp3
+
+# Signing certificates and private keys
+*.p12
+*.pfx
+*.key
+*.pem
